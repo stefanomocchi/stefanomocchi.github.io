@@ -3,25 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Stefano Mocchi - Perfil Profesional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fdf6e3; /* crema */
-      color: #800000; /* bordo oscuro */
+      background-color: #fdf6e3;
+      color: #800000;
       max-width: 800px;
       margin: 40px auto;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    h1 {
+    h1, h2 {
       color: #800000;
       text-align: center;
+    }
+    h1 {
       border-bottom: 2px solid #d2b48c;
       padding-bottom: 10px;
     }
     h2 {
-      color: #800000;
       margin-top: 30px;
     }
     p, a {
@@ -31,40 +33,68 @@
     a {
       color: #800000;
       text-decoration: none;
+      transition: text-decoration 0.2s;
     }
-    a:hover {
+    a:hover, a:focus {
       text-decoration: underline;
     }
     .icon {
       margin-right: 6px;
+      vertical-align: middle;
     }
     .link-group {
       margin-bottom: 10px;
+    }
+    .info-label {
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      body {
+        max-width: 98vw;
+        margin: 10px;
+        padding: 10px;
+      }
     }
   </style>
 </head>
 <body>
   <h1>Stefano Mocchi</h1>
-  <p><em>Aquí podés escribir una breve descripción sobre tu perfil profesional, tus intereses o tu enfoque laboral.</em></p>
+  <p><em>Consultor en Régimen Aduanero y Comercio Exterior, con profundo conocimiento en operaciones de importación y exportación, así como en la investigación y apertura de nuevos mercados</em></p>
 
   <div class="link-group">
-    <p><span class="icon">📧</span><strong>Email:</strong> <a href="mailto:smocchi2000@gmail.com">smocchi2000@gmail.com</a></p>
-    <p><span class="icon">📞</span><strong>Teléfono:</strong> <a href="tel:+5492915357764">+54 9 291-5357764</a></p>
-    <p><span class="icon">🔗</span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/stefano-mocchi/" target="_blank">linkedin.com/in/stefano-mocchi</a></p>
+    <p>
+      <span class="icon" aria-label="Correo electrónico">📧</span>
+      <span class="info-label">Email:</span>
+      <a href="mailto:smocchi2000@gmail.com">smocchi2000@gmail.com</a>
+    </p>
+    <p>
+      <span class="icon" aria-label="Teléfono">📞</span>
+      <span class="info-label">Teléfono:</span>
+      <a href="tel:+5492915357764">+54 9 291-5357764</a>
+    </p>
+    <p>
+      <span class="icon" aria-label="LinkedIn">🔗</span>
+      <span class="info-label">LinkedIn:</span>
+      <a href="https://www.linkedin.com/in/stefano-mocchi/" target="_blank" rel="noopener noreferrer">linkedin.com/in/stefano-mocchi</a>
+    </p>
   </div>
 
   <h2>📄 Currículum Vitae</h2>
   <p>
-    <span class="icon">👁️</span><a href="CV-Stefano.pdf" target="_blank">Ver CV en línea</a> |
-    <span class="icon">⬇️</span><a href="CV-Stefano.pdf" download>Descargar CV</a>
+    <span class="icon" aria-label="Ver CV">👁️</span>
+    <a href="CV-Stefano.pdf" target="_blank" rel="noopener noreferrer">Ver CV en línea</a>
+    |
+    <span class="icon" aria-label="Descargar CV">⬇️</span>
+    <a href="CV-Stefano.pdf" download>Descargar CV</a>
   </p>
 
   <h2>💼 Experiencia Laboral</h2>
   <p>
-    <span class="icon">👁️</span><a href="Experiencia-Stefano.pdf" target="_blank">Ver Experiencia en línea</a> |
-    <span class="icon">⬇️</span><a href="Experiencia-Stefano.pdf" download>Descargar PDF</a>
+    <span class="icon" aria-label="Ver Experiencia">👁️</span>
+    <a href="Experiencia-Stefano.pdf" target="_blank" rel="noopener noreferrer">Ver Experiencia en línea</a>
+    |
+    <span class="icon" aria-label="Descargar Experiencia">⬇️</span>
+    <a href="Experiencia-Stefano.pdf" download>Descargar PDF</a>
   </p>
-
-  <p><strong>Última actualización:</strong> 26 de agosto de 2025</p>
 </body>
 </html>
